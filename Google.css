@@ -113,3 +113,36 @@ align-items: center;
     display: flex;
     justify-content: center;
 }
+
+.footer-links-firstrow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-links-secondrow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-links {
+
+bottom: 0px;
+width: 100% ;
+display: flex;
+position: fixed;
+}
+
+.footer-links-secondcolumn {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer-links-firstcolumn {
+    display: flex;
+    flex-direction: row;
+  
+}
