@@ -1,10 +1,19 @@
+
+body {
+    margin: 0;
+}
+.head {
+
+    padding: 10,10,10,10; 
+}
+
 .google-main-content {
     display: block;
-    margin-top: 70px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-    padding-top: 0px;
+    padding-top: 100px;
     padding-bottom: 40px;
 }
 
@@ -13,6 +22,7 @@ p {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
 .google-home-nav__profile-image 
@@ -28,6 +38,8 @@ p {
     z-index: 0;
     margin-right: 30px;
     margin-left: 15px;
+    float: right;
+    padding-top: 5px;
     }
 
     .apps {
@@ -36,6 +48,7 @@ p {
         width: 40px;
         display: flex;
         padding-right: 0px 15px 0px 15px;
+        float: right;
     }
 
 p {
@@ -47,19 +60,29 @@ p {
     padding: 15px;
 }
 
-navbar {
-    width: 100%;
-    display:flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding: 15px;
+.navbar {
+   width: 100%;
+   margin-top: 0px;
+   position: fixed;
 }
-.left{
-    display: flex;
-    flex-direction: row-reverse;
+#leftnavbar{
+    
+    float: left;
     text-align: left;
+    align-items: left;
+display: flex;
+flex-direction: row-reverse;
 
 }
+
+#rightnavbar {
+
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
 
 .searchbox{
 width: 584px;
@@ -118,6 +141,10 @@ align-items: center;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 5px;
+    border-top: 1px solid #e4e4e4;
+    justify-content: left;
 }
 
 .footer-links-secondrow {
@@ -125,19 +152,32 @@ align-items: center;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
 }
 
 .footer-links {
 
 bottom: 0px;
 width: 100% ;
-display: flex;
-position: fixed;
+
+
+position: absolute;
+color: #5F6368;
+font-size: 14px;
+font-family: arial,sans-serif;
+border-bottom: 1px solid #e4e4e4;
+background: #f2f2f2;
 }
+
 
 .footer-links-secondcolumn {
     display: flex;
     flex-direction: row;
+    margin-left: 10px;
+    padding-right: 27px;
+    border-bottom: 1px solid #e4e4e4;
+    justify-content: left;
     
 }
 
@@ -145,4 +185,5 @@ position: fixed;
     display: flex;
     flex-direction: row;
   
+  border-bottom: 1px solid #e4e4e4;
 }
